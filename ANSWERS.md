@@ -129,33 +129,40 @@ To make accessibility part of our daily work, I'd include these checks in code r
 
 ## PART 3
 ## 3.1 — Call Pulse: Rough UI Sketch
+## PART 3
 
+### 3.1 — Call Pulse: Rough UI Sketch
+
+```text
 ┌─────────────────────────────────────────────┐
-│  CALL PULSE                                 │
+│                  CALL PULSE                 │
 │                                             │
-│  Call #1042              ⚠ Check this call  │
-│  ● Live                                    │
+│  Call #1042                 ⚠ Check this call│
+│  ● Live                                     │
 │                                             │
 │  ─────────────────────────────────────────  │
 │                                             │
 │  Speaking balance                           │
 │                                             │
-│  Agent       ██████████████░░░░░  70%       │
-│  Customer    ██████░░░░░░░░░░░░░  30%       │
+│  Agent     ██████████████░░░░░  70%         │
+│  Customer  ██████░░░░░░░░░░░░░  30%         │
 │                                             │
 │  ─────────────────────────────────────────  │
 │                                             │
-│  ◷  Silence / inactivity                    │
-│     Last activity: 12 seconds ago            │
+│  ◷ Silence / inactivity                     │
+│                                             │
+│  Last activity: 12 seconds ago              │
 │                                             │
 │  ─────────────────────────────────────────  │
 │                                             │
 │  Attention indicator                        │
-│  Agent is speaking more than customer.       │
+│                                             │
+│  Agent is speaking more than customer.      │
 │  Long pause detected.                       │
 │                                             │
-│  These are signals, not a call quality score.│
+│  These are signals, not a call quality score│
 └─────────────────────────────────────────────┘
+```
 
 ### How it works
 
